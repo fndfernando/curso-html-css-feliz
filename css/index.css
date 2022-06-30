@@ -1,9 +1,13 @@
+body{
+    width: 1140px;
+    margin: auto;
+}
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #7158e2;
-    border-bottom: 10px solid #4b4b4b;
+    border-bottom: 10px solid #000000;
     padding: 10px 20px;
 
 }
@@ -15,7 +19,7 @@ nav{
 h1{
     font-family: 'Fira Code', sans-serif;  
     color: #f9f9f9;
-    text-shadow: 5px 5px 0px #4b4b4b;  
+    text-shadow: 5px 5px 0px #000000;  
 }
 
 a{
@@ -41,7 +45,7 @@ a::before{
     display: inline-block;
     background-color: #ffaf40;
     padding: 20px 18px; 
-    box-shadow: 5px 5px 0px #4b4b4b;  
+    box-shadow: 5px 5px 0px #000000;  
     margin-right: 0;
     transition: transform 100ms linear;
 }
@@ -49,4 +53,37 @@ a::before{
 #button:hover{
     transform: scale(1.08);
 
+}
+
+#foto{
+    background-image: url('../assets/img/foto.jpg');
+    height: 797px;
+}
+
+#titulo{
+    display: inline-block;
+    margin-left: 92px;
+    margin-top: 114px;
+    background-color: #3A4042;
+    box-shadow: 5px 5px 0px #000000;  
+}
+
+h2{
+    color: #F25A70;
+    font-size: 40px;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 41px 34px 0 33px;
+}
+
+h3{
+    color: #FFF;
+    font-size: 30px;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 29px 47px 44px 40px;
+}
+
+#botao-foto{
+    display: block;
 }
