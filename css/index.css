@@ -2,7 +2,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7158e2;
+    background-color: #2e81b7;
     border-bottom: 10px solid #000000;
     padding: 10px 20px;
 
@@ -25,7 +25,7 @@ a{
 
 a::before{
     content: "";
-    background-color: #ffaf40;
+    background-color: #e54d42;
     width: 10px;
     height: 10px;
     margin-right: 10px;
@@ -33,7 +33,7 @@ a::before{
 
 #button{
     display: inline-block;
-    background-color: #ffaf40;
+    background-color: #e54d42;
     padding: 20px 18px; 
     box-shadow: 5px 5px 0px #000000;  
     margin-right: 0;
