@@ -5,6 +5,13 @@
     border-bottom: 10px solid #2e81b7;
 }
 
+.section.-projetos {
+    background-color:  #000000;
+    border-bottom: 10px solid #e54d42;
+    
+}
+
+
 .section .main-title{
     margin-bottom: 60px;
 }
