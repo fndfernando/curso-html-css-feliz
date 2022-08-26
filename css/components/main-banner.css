@@ -3,6 +3,7 @@
     background-image: url('../../assets/img/foto.jpg');;    
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: rgb(112, 111, 111);
     height: 800px;
     border-bottom: 10px solid #000;    
     padding-top: 115px;
