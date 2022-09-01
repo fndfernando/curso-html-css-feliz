@@ -34,3 +34,7 @@
     background-color: #fff;
 
 }
+
+.node-card.-bgBlue .logo{
+    background-color: #006EB9;
+}
